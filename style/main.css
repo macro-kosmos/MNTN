@@ -1,0 +1,99 @@
+/*
+font-family: "Gilroy";
+font-family: 'Playfair Display', serif;
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Gilroy";
+	background-color: #0b1d26;
+	background-image: url("./../img/BG.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+/* UTILITIES */
+
+.row {
+	display: flex;
+}
+
+.space-beteween {
+	justify-content: space-between;
+}
+
+.yellow {
+	color: #fbd784;
+}
+
+/* HEADER */
+
+.header {
+	padding-top: 64px;
+}
+
+.container-wide {
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+.nav-wrapper {
+	margin-bottom: 198px;
+}
+
+.logo {
+	font-family: "Playfair Display", serif;
+	font-size: 32px;
+	line-height: 1.187;
+	color: white;
+	text-decoration: none;
+	margin-top: 0;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	font-family: "Gilroy";
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.nav ul li + li {
+	margin-left: 40px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav ul li a:hover {
+	color: #fbd784;
+	text-decoration: underline;
+}
+
+.account {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	text-decoration: none;
+	color: white;
+}
+
+.account:hover {
+	color: #fbd784;
+	text-decoration: underline;
+}
+
+.nav,
+.account {
+	margin-top: 7px;
+}
