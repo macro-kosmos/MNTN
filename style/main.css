@@ -28,7 +28,15 @@ body {
 }
 
 .yellow {
-	color: #fbd784;
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
 }
 
 /* HEADER */
@@ -110,6 +118,8 @@ body {
 	gap: 32px;
 }
 
+/* MAIN TITLE */
+
 .key-title-category {
 	position: relative;
 	margin-left: 104px;
@@ -146,4 +156,113 @@ body {
 	line-height: 1.222;
 	background: url("../img/icon_2.svg") no-repeat top right;
 	width: 126px;
+}
+
+/* CONTENT */
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 200px;
+	width: 1462px;
+	margin: 843px auto 120px auto;
+}
+
+.content {
+	position: relative;
+	width: 1462px;
+	height: 720px;
+}
+
+.section-wrapper {
+	position: absolute;
+	width: 632px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 27px;
+	top: 141px;
+	left: 150px;
+}
+
+.content.start {
+	background: url("../img/01.svg"), url("../img/1.jpg");
+	background-position: left top 60px, right;
+	background-repeat: no-repeat;
+}
+
+.content-right.essentials {
+	background: url("../img/02.svg"), url("../img/2.jpg");
+	background-position: right 523px top 60px, left;
+	background-repeat: no-repeat;
+}
+
+.content.map {
+	background: url("../img/03.svg"), url("../img/3.jpg");
+	background-position: left top 60px, right;
+	background-repeat: no-repeat;
+}
+
+.content-title-category {
+	position: relative;
+	margin-left: 94px;
+	color: #fbd784;
+	font-size: 18px;
+	line-height: 1.222;
+	font-weight: 800;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+.content-title-category::before {
+	position: absolute;
+	content: "";
+	width: 72px;
+	height: 2px;
+	background-color: #fbd784;
+	display: block;
+	left: -104px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.content-title {
+	font-family: "Chronicle Display";
+	font-weight: 600px;
+	font-size: 64px;
+	line-height: 1.203;
+	color: white;
+	margin-right: 77px;
+}
+
+.content-description {
+	font-size: 18px;
+	line-height: 1.777;
+	color: white;
+	font-weight: 700;
+}
+
+.content-direction {
+	color: #fbd784;
+	width: 127px;
+	background: url("../img/icon_3.svg") no-repeat right;
+}
+
+.content-right {
+	position: relative;
+	width: 1462px;
+	height: 720px;
+}
+
+.section-wrapper-right {
+	position: absolute;
+	width: 632px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 27px;
+	top: 141px;
+	right: 0;
+}
+
+footer {
+	height: 280px;
 }
