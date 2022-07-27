@@ -30,3 +30,18 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "Chronicle Display";
+	src: url("../Chronicle\ Display\ Semibold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Chronicle Display";
+	src: url("../Chronicle\ Display\ Semibold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Chronicle Display Bold";
+	src: url("../Chronicle\ Display\ Bold.otf") format("opentype");
+}
