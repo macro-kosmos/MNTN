@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style/main.css" />
 		<link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css" />
 	</head>
@@ -9,7 +10,7 @@
 		<header class="header">
 			<nav class="nav-wrapper">
 				<div class="container-wide">
-					<div class="row space-beteween">
+					<div class="row">
 						<a href="#" class="logo">MNTN</a>
 						<div class="nav">
 							<ul>
@@ -22,12 +23,14 @@
 					</div>
 				</div>
 			</nav>
+			<div class="wrap-title">
+				<article class="main-title">
+					<section class="key-title-category">A Hiking guide</section>
+					<div class="key-title">Be prepared for the Mountains and beyond!</div>
+					<section class="key-title-scroll">scroll down</section>
+				</article>
+			</div>
 		</header>
-		<article class="main-title">
-			<section class="key-title-category">A Hiking guide</section>
-			<div class="key-title">Be prepared for the Mountains and beyond!</div>
-			<section class="key-title-scroll">scroll down</section>
-		</article>
 		<main>
 			<article class="content start">
 				<div class="section-wrapper">
@@ -43,21 +46,29 @@
 					</section>
 					<section class="content-direction">read more</section>
 				</div>
+				<div class="icon-number"><img src="./img/01.svg" alt="icon" /></div>
+				<img src="./img/1.jpg" alt="photo_1" />
 			</article>
-			<article class="content-right essentials">
-				<div class="section-wrapper-right">
-					<section class="content-title-category">hiking essentials</section>
-					<div class="content-title">Picking the right Hiking Gear!</div>
-					<section class="content-description">
-						The nice thing about beginning hiking is that you don’t really need
-						any special gear, you can probably get away with things you already
-						have. Let’s start with clothing. A typical mistake hiking beginners
-						make is wearing jeans and regular clothes, which will get heavy and
-						chafe wif they get sweaty or wet.
-					</section>
-					<section class="content-direction">read more</section>
-				</div>
-			</article>
+			<div class="content-right-wrapper">
+				<article class="content-right essentials">
+					<div class="section-wrapper-right">
+						<section class="content-title-category">hiking essentials</section>
+						<div class="content-title">Picking the right Hiking Gear!</div>
+						<section class="content-description">
+							The nice thing about beginning hiking is that you don’t really
+							need any special gear, you can probably get away with things you
+							already have. Let’s start with clothing. A typical mistake hiking
+							beginners make is wearing jeans and regular clothes, which will
+							get heavy and chafe wif they get sweaty or wet.
+						</section>
+						<section class="content-direction">read more</section>
+					</div>
+					<img src="./img/2.jpg" alt="photo_2" />
+					<div class="icon-number-right">
+						<img src="./img/02.svg" alt="icon" />
+					</div>
+				</article>
+			</div>
 			<article class="content map">
 				<div class="section-wrapper">
 					<section class="content-title-category">
@@ -73,8 +84,10 @@
 					</section>
 					<section class="content-direction">read more</section>
 				</div>
+				<div class="icon-number"><img src="./img/03.svg" alt="icon" /></div>
+				<img src="./img/3.jpg" alt="photo_3" />
 			</article>
-			<footer>
+			<footer class="footer">
 				<ul class="first-column">
 					<li class="column-mntn">MNTN</li>
 					<li class="column-desc">
@@ -99,6 +112,86 @@
 					<li>Press</li>
 				</ul>
 			</footer>
+
+			<!-- MOBILE VERSION -->
+
+			<header class="header-mobile">
+				<section><h1>What level of hiker are you?</h1></section>
+				<ul>
+					<li><a href="#">Equipment</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Account</a></li>
+				</ul>
+			</header>
+			<main class="main-mobile">
+				<section class="content-mobile">
+					<img src="./img/1.jpg" alt="image" />
+					<article class="article-mobile">
+						<h1 class="content-title-mobile">What level of hiker are you?</h1>
+						<p class="content-description-mobile">
+							Determining what level of hiker you are can be an important tool
+							when planning future hikes. This hiking level guide will help you
+							plan hikes according to different hike ratings set by various
+							websites like All Trails and Modern Hiker. What type of hiker are
+							you – novice, moderate, advanced moderate, expert, or expert
+							backpacker?
+						</p>
+						<section class="content-direction-mobile">
+							<a href="#">read more</a>
+						</section>
+					</article>
+				</section>
+				<section class="content-mobile">
+					<img src="./img/2.jpg" alt="image" />
+					<article class="article-mobile">
+						<h1 class="content-title-mobile">Picking the right Hiking Gear!</h1>
+						<p class="content-description-mobile">
+							The nice thing about beginning hiking is that you don’t really
+							need any special gear, you can probably get away with things you
+							already have. Let’s start with clothing. A typical mistake hiking
+							beginners make is wearing jeans and regular clothes, which will
+							get heavy and chafe wif they get sweaty or wet.
+						</p>
+						<section class="content-direction-mobile">
+							<a href="#">read more</a>
+						</section>
+					</article>
+				</section>
+				<section class="content-mobile">
+					<img src="./img/3.jpg" alt="image" />
+					<article class="article-mobile">
+						<h1 class="content-title-mobile">Understand Your Map & Timing</h1>
+						<p class="content-description-mobile">
+							To start, print out the hiking guide and map. If it’s raining,
+							throw them in a Zip-Lock bag. Read over the guide, study the map,
+							and have a good idea of what to expect. I like to know what my
+							next landmark is as I hike. For example, I’ll read the guide and
+							know that say, in a mile, I make a right turn at the junction..
+						</p>
+						<section class="content-direction-mobile">
+							<a href="#">read more</a>
+						</section>
+					</article>
+				</section>
+				<footer class="footer-mobile">
+					<ul class="column-mobile">
+						<h1>More on The Blog</h1>
+						<li>About MNTN</li>
+						<li>Contributors & Writers</li>
+						<li>Write For Us</li>
+						<li>Contact Us</li>
+						<li>Privacy Policy</li>
+					</ul>
+					<ul class="column-mobile">
+						<h1>More on MNTN</h1>
+						<li>The Team</li>
+						<li>Jobs</li>
+						<li>Press</li>
+					</ul>
+					<p>Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+				</footer>
+			</main>
 		</main>
 	</body>
 </html>
