@@ -1,3 +1,5 @@
+// Move two icons with resize the window
+
 ;(function () {
 	let throttle = function (type, name, obj) {
 		obj = obj || window
@@ -34,3 +36,15 @@ function moveImg() {
 }
 
 moveImg()
+
+// Scroll
+
+function scroll() {
+	const elemScroll = document.querySelector(".key-title-scroll")
+	const content = document.querySelector(".content")
+	elemScroll.addEventListener("click", (event) => {
+		content.scrollIntoView(top)
+	})
+}
+
+scroll()
