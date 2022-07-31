@@ -331,17 +331,16 @@ main {
 	display: none;
 }
 
+.footer li a {
+	text-decoration: none;
+	color: white;
+}
+
 /* ADAPTIVE */
 
 @media screen and (min-width: 1870px) {
 	body {
 		background-size: 100% auto;
-	}
-}
-
-@media screen and (max-width: 1615px) {
-	.icon-number {
-		left: 0;
 	}
 }
 
@@ -494,6 +493,11 @@ main {
 		gap: 500px;
 		padding: 200px 0;
 		text-align: center;
+	}
+
+	.footer-mobile a {
+		text-decoration: none;
+		color: white;
 	}
 
 	.column-mobile {
